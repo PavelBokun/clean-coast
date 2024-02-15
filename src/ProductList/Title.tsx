@@ -1,9 +1,11 @@
+import './title.css'
+
 const Title = () => {
   const title = "Чистый Берег";
 
   return (
     <div>
-      <p>{title}</p>
+      <p className="title">{title}</p>
     </div>
   );
 };
