@@ -1,0 +1,15 @@
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    gap: 10px;
+    justify-content: center;
+    margin-top: 100px;
+  }
+  
+  /* Дополнительные стили для адаптивности */
+  @media (max-width: 768px) {
+    .product-list {
+      justify-content: center;
+    }
+  }
