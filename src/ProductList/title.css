@@ -1,7 +1,28 @@
 .title{
+    border: 5px solid hsl(20, 83%, 57%);
+    border-radius: 10px;
     color: rgb(77, 203, 242);
-    font-size: larger;
+    /* font-size: 40px; */
     font-weight: bold;
   text-align: center;
+  width: 550px;
+  /* background-color: rgb(141, 212, 189); */
+  
     
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   
+    
+}
+.dop{
+    color:black;
+    font-size: 18px;
+}
+.mainContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
 }
