@@ -1,20 +1,19 @@
-import React from 'react';
-import ProductItem from './ProductItem';
-import './ProductList.css'; // Стили компонента
+import React from "react";
+import ProductItem from "./ProductItem";
+import "./ProductList.css"; // Стили компонента
 
 interface Product {
   id: number;
   name: string;
   price: number;
   image: string;
-  d:number;
-  imageSecond:string;
-  imageThrid:string;
-
+  d: number;
+  imageSecond: string;
+  imageThrid: string;
 }
 
 interface ProductListProps {
-  products: Product[]
+  products: Product[];
 }
 
 // export const defaultProducts: Product[] = [
@@ -39,13 +38,15 @@ interface ProductListProps {
 //     // Добавьте другие товары по вашему усмотрению
 //   ];
 
-const ProductList: React.FC<ProductListProps> = ({ products}) => {
+const ProductList: React.FC<ProductListProps> = ({ products }) => {
   return (
-    <div className="product-list">
-      {products.map((product) => (
-        <ProductItem key={product.id} product={product} />
-      ))}
-    </div>
+    // <div className="mainProduct-list" >
+      <div className="product-list">
+        {products.map((product) => (
+          <ProductItem key={product.id} product={product} />
+        ))}
+      </div>
+    // </div>
   );
 };
 

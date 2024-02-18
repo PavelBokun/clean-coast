@@ -27,8 +27,6 @@
 .pr {
   display: flex;
   flex-direction: column;
-  /* flex-wrap: wrap; */
-  /* border: 2px solid rgb(202, 150, 150); */
   border-radius: 5px;
 }
 .prparent {
@@ -36,7 +34,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   gap: 10px;
-  /* border: 1px solid red; */
+ 
 }
 .pr img {
   width: 100%;
