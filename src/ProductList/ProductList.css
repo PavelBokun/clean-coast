@@ -12,7 +12,7 @@
   /* Дополнительные стили для адаптивности */
   @media (max-width: 768px) {
     .product-list {
-      /* justify-content: center; */
+      justify-content: center;
     }
   }
   .mainProduct-list{
